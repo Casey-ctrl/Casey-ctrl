@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    background: linear-gradient(skyblue, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+#h1{
+    font-family: "press start 2p";
+    border: 3px solid rgba(0, 0, 0, 0.678);
+    border-radius: 7px;
+    height:70%;  
+    padding: 5px;
+    color: lightgreen;
+    text-align: center;
+    text-shadow: 5px 5px 5px green;
+    font-weight: bold;
+
+}
+a:hover{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center; 
+   color: purple;
+  
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-se  rif;
+    text-align: center;
+    color:aliceblue;
+    transition:0.3s;
+}
+footer{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+#nav{
+    color: rgba(128, 0, 128, 0.792);
+}
+main{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+img{
+   width: 90%;
+   text-align:justify;
+   margin-left: 60px;
+   border-radius: 10px;
+   
+}
+#container1{
+  font-family: "press start 2p";
+  
+   
+}
+input{
+    all: unset;
+    padding:15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 2px 2px;
+  transition: border  3s ease-in-out;
+
+}
+input:focus{
+    border-color: purple;
+}
+input::placeholder{
+    font-size: -9rem;
+}
+
